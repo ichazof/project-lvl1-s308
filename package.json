@@ -17,7 +17,7 @@
     "babel-node": "babel-node",
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "prepublishOnly": "npm run build",
-    "eslint": "eslint src"
+    "eslint": "eslint ."
   },
   "author": "Ilya Chazov",
   "license": "ISC",
@@ -27,8 +27,8 @@
     "babel-eslint": "^8.2.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1",
-    "eslint": "^5.1.0",
-    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint": "^4.1.9",
+    "eslint-config-airbnb-base": "^12.0.0",
     "eslint-plugin-import": "^2.13.0"
   },
   "dependencies": {
