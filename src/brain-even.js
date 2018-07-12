@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
+import askName from '.';
 
-export default (name) => {
+export default (name = askName()) => {
   console.log('Answer "yes" if number even otherwise answer "no". \n');
   let randomNum;
   let rightAnswer = 0;
