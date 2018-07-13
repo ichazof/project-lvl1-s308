@@ -10,4 +10,6 @@ export const gcd = (a, b) => {
   return temp;
 };
 
+export const isEven = num => num % 2 === 0;
+
 const smalest = (a, b) => ((a > b) ? b : a);
