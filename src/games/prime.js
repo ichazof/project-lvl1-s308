@@ -5,8 +5,11 @@ import { random } from '../utils';
 const task = 'Is this number prime?';
 const maxValue = 100;
 
-const isPrime = (num) => {
-  for (let i = 2; i < num; i += 1) {
+export const isPrime = (num) => {
+  if (num === 0 || num === 1) {
+    return false;
+  }
+  for (let i = 2; i < Math.round(num / 2); i += 1) {
     if (num % i === 0) {
       return false;
     }
