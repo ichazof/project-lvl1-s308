@@ -8,7 +8,7 @@
 
 # Brain Games
 This project was developed during the teaching on [Hexlet](https://ru.hexlet.io/)
-
+A set of intelligent mini games.
 
 
 ## Installing
