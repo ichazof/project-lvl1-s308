@@ -32,6 +32,7 @@ Command to start the game: ``` brain-even ```
 ##### It is necessary to balance the number. A balanced number is a number in which the smallest digit differs from the largest one by more than one.
 
 Command to start the game: ``` brain-balance ```
+
 ![](https://ichazof.github.io/brain-balance.gif)
 
 
@@ -39,6 +40,7 @@ Command to start the game: ``` brain-balance ```
 ##### The user is shown a random mathematical expression that needs to be calculated and written the correct answer.
 
 Command to start the game: ``` brain-calc ```
+
 ![](https://ichazof.github.io/brain-calc.gif)
 
 
@@ -47,6 +49,7 @@ Command to start the game: ``` brain-calc ```
 ##### The user is shown two random numbers, he must calculate and enter the greatest common divisor of these numbers.
 
 Command to start the game: ``` brain-gcd ```
+
 ![](https://ichazof.github.io/brain-gcd.gif)
 
 
