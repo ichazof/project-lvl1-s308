@@ -10,6 +10,7 @@
 This project was developed during the teaching on [Hexlet](https://ru.hexlet.io/)
 
 
+
 ## Installing
 
 
@@ -18,10 +19,13 @@ sudo npm install -g ichazof_project_test
 ```
 
 
+
 ## Is even
 ##### You must determine whether the number is even?
 
 Command to start the game: ``` brain-even ```
+
+
 
 
 ## Balance number
@@ -30,10 +34,13 @@ Command to start the game: ``` brain-even ```
 Command to start the game: ``` brain-balance ```
 
 
+
 ## Calculator
 ##### The user is shown a random mathematical expression that needs to be calculated and written the correct answer.
 
 Command to start the game: ``` brain-calc ```
+
+
 
 
 ## Greatest common divisor
@@ -43,10 +50,12 @@ Command to start the game: ``` brain-gcd ```
 
 
 
+
 ## Progression
 ##### We show the player a series of numbers, forming an arithmetic progression, replacing any of the numbers with two points. The player must determine this number.
 
 Command to start the game: ``` brain-progression ```
+
 
 
 
