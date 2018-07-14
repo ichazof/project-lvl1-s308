@@ -62,6 +62,7 @@ Command to start the game: ``` brain-progression ```
 ![](https://ichazof.github.io/brain-progression.gif)
 
 
+
 ## Is Prime
 ##### The user must determine whether the number is prime
 
