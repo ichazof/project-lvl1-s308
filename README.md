@@ -59,7 +59,7 @@ Command to start the game: ``` brain-gcd ```
 
 Command to start the game: ``` brain-progression ```
 
-![](https://ichazof.github.io/brain-prime.gif)
+![](https://ichazof.github.io/brain-progression.gif)
 
 
 
