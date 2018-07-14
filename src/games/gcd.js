@@ -1,5 +1,6 @@
+import { cons } from 'hexlet-pairs';
 import gameProcess from '../game';
-import { random, makeGameGenerator } from '../utils';
+import { random } from '../utils';
 
 const task = 'Find the greatest common divisor of given numbers.';
 const maxValue = 100;
@@ -15,11 +16,11 @@ const gcd = (a, b) => {
 
 const smalest = (a, b) => ((a > b) ? b : a);
 const gameGenerator = () => {
-  const operand1 = random(maxValue);
-  const operand2 = random(maxValue);
-  const question = `${operand1} ${operand2}`;
-  const answer = String(gcd(operand1, operand2));
-  return makeGameGenerator(question, answer);
+  const num1 = random(maxValue);
+  const num2 = random(maxValue);
+  const question = `${num1} ${num2}`;
+  const answer = String(gcd(num1, num2));
+  return cons(question, answer);
 };
 
 export default () => {

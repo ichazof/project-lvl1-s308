@@ -1,5 +1,6 @@
+import { cons } from 'hexlet-pairs';
 import gameProcess from '../game';
-import { random, makeGameGenerator } from '../utils';
+import { random } from '../utils';
 
 const task = 'Is this number prime?';
 const maxValue = 100;
@@ -14,10 +15,10 @@ const isPrime = (num) => {
 };
 
 const gameGenerator = () => {
-  const operand = random(maxValue);
-  const question = `${operand}`;
-  const answer = (isPrime(operand)) ? 'yes' : 'no';
-  return makeGameGenerator(question, answer);
+  const randomNum = random(maxValue);
+  const question = `${randomNum}`;
+  const answer = (isPrime(randomNum)) ? 'yes' : 'no';
+  return cons(question, answer);
 };
 
 export default () => {

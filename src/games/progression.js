@@ -1,5 +1,6 @@
+import { cons } from 'hexlet-pairs';
 import gameProcess from '../game';
-import { random, makeGameGenerator } from '../utils';
+import { random } from '../utils';
 
 const lenOfProgression = 10;
 const task = 'What number is missing in this progression?';
@@ -19,7 +20,7 @@ const gameGenerator = () => {
       progression += `${startMember + (i * step)} `;
     }
   }
-  return makeGameGenerator(progression, answer);
+  return cons(progression, answer);
 };
 
 export default () => {

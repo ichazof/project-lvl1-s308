@@ -1,5 +1,6 @@
+import { cons } from 'hexlet-pairs';
 import gameProcess from '../game';
-import { random, makeGameGenerator } from '../utils';
+import { random } from '../utils';
 
 const task = 'What is the result of the expression?';
 const maxValue = 100;
@@ -11,11 +12,11 @@ const gameGenerator = () => {
   const operation = random(countOperation);
   switch (operation) {
     case 0:
-      return makeGameGenerator(`'${operand1} + ${operand2}'`, operand1 + operand2);
+      return cons(`'${operand1} + ${operand2}'`, operand1 + operand2);
     case 1:
-      return makeGameGenerator(`'${operand1} - ${operand2}'`, operand1 - operand2);
+      return cons(`'${operand1} - ${operand2}'`, operand1 - operand2);
     case 2:
-      return makeGameGenerator(`'${operand1} * ${operand2}'`, operand1 * operand2);
+      return cons(`'${operand1} * ${operand2}'`, operand1 * operand2);
     default:
       throw new Error('error');
   }
