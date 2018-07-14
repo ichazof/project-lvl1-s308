@@ -24,7 +24,7 @@ sudo npm install -g ichazof_project_test
 ##### You must determine whether the number is even?
 
 Command to start the game: ``` brain-even ```
-
+![](https://ichazof.github.io/brain-even.gif)
 
 
 
@@ -39,7 +39,7 @@ Command to start the game: ``` brain-balance ```
 ##### The user is shown a random mathematical expression that needs to be calculated and written the correct answer.
 
 Command to start the game: ``` brain-calc ```
-
+![](https://ichazof.github.io/brain-calc.gif)
 
 
 
@@ -64,4 +64,4 @@ Command to start the game: ``` brain-progression ```
 
 Command to start the game: ``` brain-prime ```
 
-
+![](https://ichazof.github.io/brain-prime.gif)
