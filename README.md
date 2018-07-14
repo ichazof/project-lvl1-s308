@@ -17,19 +17,33 @@ This project was developed during the teaching on [Hexlet](https://ru.hexlet.io/
 sudo npm install -g ichazof_project_test
 ```
 
-## Brain-even
+## Is even
 you must determine whether the number is even?
 
 Command to start the game: ``` brain-even ```
 
 
+## Balance number
+Command to start the game: ``` brain-balance ```
 
-## Brain-gcd
+
+## Calculator
+Command to start the game: ``` brain-calc ```
+
+
+## Greatest common divisor
+
 
 Command to start the game: ``` brain-gcd ```
 
-## Brain-progression
+
+
+## Progression
 Command to start the game: ``` brain-progression ```
 
-## Brain-prime
+
+
+## Prime
 Command to start the game: ``` brain-prime ```
+
+
