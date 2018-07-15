@@ -6,10 +6,11 @@ const task = 'Is this number prime?';
 const maxValue = 100;
 
 export const isPrime = (num) => {
-  if (num === 0 || num === 1) {
+  if (num < 2) {
     return false;
   }
-  for (let i = 2; i < Math.round(num / 2); i += 1) {
+  const finalDivisor = Math.sqrt(num);
+  for (let i = 2; i <= finalDivisor; i += 1) {
     if (num % i === 0) {
       return false;
     }
